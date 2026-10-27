@@ -1,0 +1,33 @@
+{
+  "snapshot_date": "2026-10-27",
+  "export_effective_date": "unknown",
+  "project": "Homer City Redevelopment EPC",
+  "source_file": "expediting_export.csv",
+  "source_url": "https://github.com/NathanBatman/106495.GIT.Repo/blob/02b837b842f51978c519ba0482b544f20831ab6e/expediting_export.csv",
+  "source_revision": "02b837b842f51978c519ba0482b544f20831ab6e",
+  "source_sha256": "bf901a470f772a5a8f44ccfcb27cfd654fa47db5ac27924c2b4919508982d697",
+  "significant_days": 30,
+  "variance_unit": "calendar days",
+  "notice": "Historical CSV snapshot analysis. Forecasts and recorded actual dates have not been verified against live Material Visibility. Missing actual dates do not prove non-delivery. Calendar-day variances do not establish P6 critical-path or project completion impacts.",
+  "counts": {
+    "source_records": 867,
+    "source_columns": 96,
+    "source_status_late": 120,
+    "late_future_no_actual": 66,
+    "late_future_no_actual_significant": 10,
+    "open_forecast_delays": 104,
+    "significant_open_forecast_delays": 21,
+    "recorded_actual_late": 16,
+    "past_forecast_no_actual": 69,
+    "investigation_records": 427
+  },
+  "classifications": {
+    "Forecast delay; actual arrival unrecorded": 66,
+    "Past forecast; actual arrival unrecorded": 69,
+    "No usable forecast or actual": 122,
+    "Recorded actual late arrival": 16,
+    "Forecast only; actual arrival unrecorded": 559,
+    "Recorded actual; scheduled date unavailable": 1,
+    "Recorded actual on/before scheduled": 34
+  }
+}
